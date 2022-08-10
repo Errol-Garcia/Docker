@@ -20,3 +20,8 @@ Para realizar la instalación, vamos a necesitar ya tener previamente insalado e
     * El soporte de virtualización de hardware a nivel de BIOS debe estar habilitado en la configuración del BIOS. Para obtener más información, consulte Virtualización .
 
     * Descargue e instale el paquete de actualización del kernel de Linux .
+
+<h2> Install Docker Desktop on Windows </h2>
+
+<h3> Instalar desde la linea de comandos </h3>
+En este proceso de instalación vamos a realizarla desde lineas de comando por medio del terminal por medio de unos comandos 
