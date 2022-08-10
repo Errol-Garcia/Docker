@@ -1,9 +1,4 @@
-<img src=Img/logo.png width="150" height="100">
-
-<h1> 
-    Instalación Docker
-</h1>
-
+<img src=Img/logo.png width="150" height="100"> <h1> **Instalación Docker** </h1>
 <h2> 
     Requisitos del sistema
 </h2>
