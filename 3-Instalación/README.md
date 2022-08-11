@@ -22,7 +22,7 @@ Para realizar la instalación, vamos a necesitar ya tener previamente insalado e
     * Descargue e instale el paquete de actualización del kernel de Linux .
 
 <h2> 
-    <p style="color=blue";>Install Docker Desktop on Windows </p>
+    <p style="color:blue";>Install Docker Desktop on Windows</p>
 </h2>
 
 <h3>
@@ -31,3 +31,5 @@ Para realizar la instalación, vamos a necesitar ya tener previamente insalado e
 
 
 En este proceso de instalación vamos a realizarla interactivamente por medio del paso a paso que nos provee la interfaz del instalador de Docker; los pasos que seguiremos los revisaremos a continuación:
+
+![img1](Img/screen1.png)
