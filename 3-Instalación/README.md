@@ -58,8 +58,17 @@ En este proceso de instalación vamos a realizarla interactivamente por medio de
 
 * En este paso, simplemente tendras que clasificarte en el plan que deseas escoger, ya sea personal, profesional, Un quipo o de negocio.
 ![img8](Img/screen8.png)
-![img10](Img/screen10.png)
+
+* Finalmente, al momento de ejecutar el acceso directo de Docker Desktop accederemos a nuestra cuenta docker y podremos utilizar normalmente la herramienta. 
+    ![img10](Img/screen10.png)
 
 [1.1]:https://desktop.docker.com/win/main/amd64/Docker%20Desktop%20Installer.exe
 
 [1.2]:https://hub.docker.com/
+
+
+# Mas recursos
+
+* [Docker Documents][1.3]
+
+[1.3]:https://docs.docker.com/desktop/install/windows-install/
