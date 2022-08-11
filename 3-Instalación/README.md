@@ -60,7 +60,7 @@ En este proceso de instalación vamos a realizarla interactivamente por medio de
 ![img8](Img/screen8.png)
 
 * Finalmente, al momento de ejecutar el acceso directo de Docker Desktop accederemos a nuestra cuenta docker y podremos utilizar normalmente la herramienta. 
-    ![img10](Img/screen10.png)
+    ![img10](Img/screen10.jpg)
 
 [1.1]:https://desktop.docker.com/win/main/amd64/Docker%20Desktop%20Installer.exe
 
