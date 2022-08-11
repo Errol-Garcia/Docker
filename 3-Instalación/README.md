@@ -32,4 +32,34 @@ Para realizar la instalación, vamos a necesitar ya tener previamente insalado e
 </body>
 En este proceso de instalación vamos a realizarla interactivamente por medio del paso a paso que nos provee la interfaz del instalador de Docker; los pasos que seguiremos los revisaremos a continuación:
 
-![img1](Img/screen1.png)
+ * Para empezar con la instalación debemos decargar el [ejecutable de Docker][1.1] y abrimos:
+
+    ![img1](Img/screen1.png)
+
+* Para esta instalacion interactiva marcamos la casilla para que se pueda añadir un acceso directo al escritorio.
+    ![img2](Img/screen2.png)
+
+* En este momento empieza el unpacking file de Docker
+    ![img3](Img/screen3.png)
+
+* como se puede apreciar la instalacion tiene pocos pasos, y no se demora en desempaquetar los archivos de docker.
+
+    le pide cerrar para completar completar la instalación. 
+    ![img4](Img/screen4.png)
+
+* teniendo en cuenta, la marca del check que hizo anteriormente, le queda anclado el acceso directo para poder abrirlo rapidamente
+    ![img5](Img/screen5.jpg)
+
+* se abrira una ventana en el navegador para loguearnos y poder autentificar la cuenta con el Docker que acabamos de instalar, si no tenemos una cuenta docker, damos clic en el boton para registrarnos ([sing in][1.2])
+    ![img6](Img/screen6.png)
+
+* Aqui crearemos nuestra cuenta docker para poder ingresar a la gran cadena de ventajas que nos brinda Docker
+    ![imgn](Img/sceen.png)
+
+* En este paso, simplemente tendras que clasificarte en el plan que deseas escoger, ya sea personal, profesional, Un quipo o de negocio.
+![img8](Img/screen8.png)
+![img10](Img/screen10.png)
+
+[1.1]:https://desktop.docker.com/win/main/amd64/Docker%20Desktop%20Installer.exe
+
+[1.2]:https://hub.docker.com/
