@@ -23,6 +23,7 @@ Crear una aplicación Docker es lo mismo que crear una aplicación sin Docker. L
 
 # **Paso 2: Write Dockerfile/s**
 ![img3](img/img3.png)
+
 Necesita un Dockerfile para cada imagen personalizada que desee crear. También necesita un Dockerfile para cada contenedor implementado, ya sea una implementación automática desde Visual Studio o una implementación manual mediante la CLI de Docker (comandos docker-run y docker-compose). Si la aplicación contiene un servicio de usuario, se requiere un Dockerfile. Si su aplicación abarca varios servicios (por ejemplo, en una arquitectura de microservicio), se requiere un Dockerfile para cada servicio.
 El Dockerfile se coloca en la carpeta raíz de la aplicación o servicio. Contiene comandos que le indican a Docker cómo configurar y ejecutar una aplicación o servicio en un contenedor. Puede crear un Dockerfile manualmente en su código y agregarlo a su proyecto junto con las dependencias de .NET.
 
@@ -37,5 +38,15 @@ Tenga en cuenta que las imágenes de Docker se crean automáticamente en Visual 
 
 Como desarrollador, debe compilar y probar localmente hasta que libere todas las funciones o cambie su sistema de administración (como GitHub). Por lo tanto, debe crear imágenes de Docker e implementar contenedores en un host de Docker local (VM Windows o Linux) y ejecutar, probar y configurar los contenedores localmente.
 
+# **Paso 4: Define services by writing**
+![img5](img/img5.png)
+
+El archivo [docker-compose.yml][1.2] permite definir el conjunto de servivios relacionados que se implementaran como una aplicacion compuesta con comandos deimplementacion. tambien configura sus relaciones de dependencia y la configuracion del tiemmpo de ejecucion.
+
+# **Paso 5: Containers / Compose app**
+![img6](img/img6.png)
+
+si la aplicacion solo tiene un contenedor, puede ejecutarlo con el host Docker directamente y si tiene varios servicios, puede implementarla como una aplicacion compuesta, ya sea usando solo comando CLI(`docker-compose up`) o con Visual Studio, que usara ese comando en secreto. 
 
 [1.1]:https://www.netapp.com/es/devops-solutions/what-is-devops/
+[1.2]:https://docs.docker.com/compose/compose-file/
