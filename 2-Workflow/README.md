@@ -46,7 +46,12 @@ El archivo [docker-compose.yml][1.2] permite definir el conjunto de servivios re
 # **Paso 5: Containers / Compose app**
 ![img6](img/img6.png)
 
-si la aplicacion solo tiene un contenedor, puede ejecutarlo con el host Docker directamente y si tiene varios servicios, puede implementarla como una aplicacion compuesta, ya sea usando solo comando CLI(`docker-compose up`) o con Visual Studio, que usara ese comando en secreto. 
+si la aplicacion solo tiene un contenedor, puede ejecutarlo con el host Docker directamente y si tiene varios servicios, puede implementarla como una aplicacion compuesta, ya sea usando solo comando CLI(`docker-compose up`) o con Visual Studio, que usara ese comando en secreto.
+
+# **Paso 6: Test your app or microservices**
+![img7](img/img7.png)
+
+Este paso depende de lo que esté haciendo su aplicación. Implementado como un contenedor o un servicio de aplicación .NET simple, puede acceder al servicio abriendo un navegador en el host de Docker y navegando al sitio
 
 [1.1]:https://www.netapp.com/es/devops-solutions/what-is-devops/
 [1.2]:https://docs.docker.com/compose/compose-file/
