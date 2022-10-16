@@ -16,7 +16,7 @@
 
 [1_2]:https://github.com/Errol-Garcia/Docker/tree/main/3-Comandos
 
-[1_3]:https://github.com/Errol-Garcia/Docker/tree/main/4-Instalacion
+[1_3]:https://github.com/Errol-Garcia/Docker/tree/main/4-Instalaci%C3%B3n
 
 [1_4]:https://github.com/Errol-Garcia/Docker/tree/main/5-Ejercicio-Completo
 
